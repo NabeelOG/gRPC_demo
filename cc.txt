@@ -1,0 +1,516 @@
+0:00
+why am I choosing go in 2024 over rust
+0:03
+this is kind of the year that I'm going
+0:04
+to be choosing go over and over and over
+0:07
+again and so one of the big motivating
+0:09
+factors have been for me that I've been
+0:10
+doing rust for every little side project
+0:13
+for every little thing I could do on
+0:14
+Netflix and any sort of tool and all
+0:15
+that uh and I've just been using it a
+0:18
+lot for the last two years for pretty
+0:21
+much everything uh I've graduated from
+0:23
+the point of using Arcam mutex hashmaps
+0:25
+and so I feel like once you overcome
+0:27
+that hurdle on async Rust you're you're
+0:30
+pretty good place and so I've just been
+0:32
+doing it for quite some time and what
+0:34
+I'm kind of realizing is that the type
+0:36
+system is incredible it is the best type
+0:40
+it's like the second best type system I
+0:41
+have ever
+0:43
+used but there's a little something that
+0:45
+I I think is really important to kind of
+0:47
+know about which is that when you have
+0:50
+such expressivity such complex some such
+0:54
+complex complexi livity of a language uh
+0:58
+there's this phrase that that I that
+1:00
+I've seen said which is if your language
+1:03
+doesn't have the comple if if your
+1:05
+language isn't complex your app will be
+1:06
+complex something along those lines
+1:08
+either the complexity is in your
+1:09
+language or in your application I've
+1:11
+heard some version of this statement
+1:13
+somewhere and I I I I truly 100% believe
+1:18
+that that is just a dumb statement at
+1:19
+this point it is not true in the
+1:22
+slightest what I found with rust is that
+1:24
+you can make anything incredible
+1:26
+anything absolutely out of this world
+1:29
+when you really need to if you really
+1:30
+wanted to you could do proc macros to
+1:32
+really even like Drive things off of
+1:34
+strs and it's actually it's just such a
+1:37
+powerful language but what I end up
+1:39
+doing is that I end up making so much
+1:43
+time investment into making my code
+1:46
+pretty and I feel like rust has this
+1:48
+weird curve where if you're not invested
+1:50
+into making your code pretty it's
+1:53
+actually it becomes uh excessively hard
+1:55
+so there's like this weird line where I
+1:57
+find myself battling against rust or
+2:01
+battling against trying to make it so
+2:02
+that it's super convenient to write so
+2:04
+every single struct I'm making I'm
+2:06
+implementing so many different of these
+2:08
+like basic traits to be able to do
+2:09
+anything like display uh into and all
+2:12
+that and so it's just like it keeps on
+2:14
+you know I just keep on doing that with
+2:15
+everything whereas with go I'm trying go
+2:18
+out for the next one to two years as
+2:21
+like my kind of go-to reach when I can
+2:23
+have a decision on the language I'm
+2:25
+using and the reason why I'm doing that
+2:27
+is I want to explore like the literal
+2:29
+opposite Paradigm of rust which is this
+2:33
+language is extremely simple it's
+2:36
+designed to be simple it is like that is
+2:38
+the literal purpose of it is to be like
+2:42
+Peak grug Peak Simplicity and so I
+2:45
+really want to experience what is the
+2:46
+difference of becoming really good at a
+2:48
+language in which is extremely complex
+2:51
+and very powerful all the way down to
+2:53
+like exactly how things are happening
+2:56
+like at a very low level versus maybe a
+2:58
+little bit higher level of a language
+3:00
+that's still really fast it fits my bill
+3:01
+for being a fast enough language I don't
+3:03
+feel like I'm just doing users dirty and
+3:05
+so it's on the fast enough thing and has
+3:07
+a great concurrency model is the
+3:09
+Simplicity true and right now what I'm
+3:12
+seeing in my kind of initial run through
+3:15
+is that if your language doesn't have
+3:18
+complexity it does not mean your app has
+3:21
+to have complexity your app having
+3:23
+complexity that is unmanageable is a
+3:26
+skill issue more than it is anything
+3:28
+else and so that me I can have at least
+3:31
+this is kind of what I'm experiencing
+3:32
+I'm having the Simplicity of not having
+3:35
+to overthink things though I do miss
+3:36
+stuff right I miss trade implementations
+3:38
+there's things I really wish go had that
+3:40
+I really would like you know what I mean
+3:42
+there's things that I like this is not
+3:45
+me saying go rust is bad okay rust is
+3:47
+great it's just that I I end up like I I
+3:50
+do too much type masturbation when it
+3:52
+comes to to rust whereas I just don't do
+3:54
+that with go I I it's cuz I really can't
+3:57
+you know what I mean it's just not in
+3:58
+the cards and and so it becomes a lot
+4:01
+harder to to spend my time really
+4:04
+thinking about types and due to it being
+4:07
+so simple I end up approaching problems
+4:09
+with a really simplistic kind of view
+4:12
+and it ends up making things really
+4:14
+simple if that makes sense hopefully
+4:17
+that that that makes sense uh go became
+4:19
+amazing once generics were introduced
+4:20
+yeah this actually has greatly
+4:21
+simplified their uh their standard
+4:23
+library because now they have like a Max
+4:25
+and all that so there you go that's
+4:26
+that's kind of been my thought on Go
+4:28
+versus rust and I've been really kind of
+4:30
+stewing on this because I I here's
+4:32
+here's one problem that I see with a lot
+4:33
+of people is that they find something
+4:35
+that feels good and they really like it
+4:37
+and so then they think this is Peak
+4:39
+programming right and you see this
+4:41
+constantly with typescript typescript is
+4:43
+the worst offender not because
+4:45
+typescript is somehow there no knock
+4:47
+against typescript typescript is the
+4:49
+worst offender because people who are
+4:51
+new to programming start there and so
+4:54
+when they start using it and they see a
+4:55
+different language they automatically
+4:57
+discredit it because they try to think
+4:59
+of it through the lens of typescript and
+5:02
+that's like not how you should approach
+5:03
+any programming language you should
+5:05
+approach a you should approach a
+5:06
+programming language of how do you how
+5:08
+do you use it its way how do you write
+5:11
+idiomatic version of that if that makes
+5:14
+sense and so I I feel like a lot of
+5:16
+times people don't take that that kind
+5:18
+of paradigm shift to write it right like
+5:21
+if you try to write rust like you write
+5:23
+typescript you're going to be deeply
+5:24
+unpleased if you write typescript like
+5:27
+you're trying to write rust you're going
+5:29
+to be it's just not going to be that
+5:30
+much fun if you try to write go like
+5:32
+either of them it's not going to be that
+5:33
+much fun right you have to like really
+5:35
+kind of think through each one of your
+5:38
+decision you know what I mean and so
+5:41
+that's how I think about it all I wish
+5:43
+go at Union types see that's the thing
+5:44
+is I'm actually find that they don't
+5:46
+have Union types you solve Union types
+5:48
+by using interfaces and what that what
+5:51
+the reason why I do like that is that it
+5:54
+also simplifies how I approach this
+5:56
+because often Union types I use it as
+5:58
+like a catch up for things that need to
+6:01
+change and instead I can walk backwards
+6:03
+and try to figure out why do I need this
+6:05
+Union type and what can I do to change
+6:07
+it you know what I mean like I there's
+6:08
+there's definitely things that you can
+6:10
+it's almost like I go through and go
+6:13
+okay wait a second why am I doing this
+6:15
+to begin with what's the simpler way
+6:17
+what's the thing that I should be doing
+6:19
+here it just tends to make me just think
+6:20
+a little bit different if that if that
+6:22
+makes sense and so it's been fun I've
+6:23
+been I've been having a lot of fun uh
+6:26
+you know programming the grug language
+6:29
+versus is the the you know the the the
+6:32
+600 IQ floating guy language and so I've
+6:36
+been having fun on both sides and so I
+6:38
+like it so there you go that's why I'm
+6:39
+using go in 2024 versus rust you got to
+6:42
+you got to flex your brain you got to
+6:44
+really flex your brain and try different
+6:45
+ways to approach problems honestly I
+6:47
+think that's that that will be your
+6:49
+biggest hindrance to becoming a great
+6:51
+engineer in the next 10 years is your
+6:53
+inability to be able to shift paradigms
+6:55
+around and so I do have one last
+6:57
+Paradigm I still want to do which is
+6:59
+going for a real functional Paradigm
+7:03
+like moment and I think it's really good
+7:06
+uh to be fair just use the language you
+7:08
+enjoy no see I hate this I honestly I
+7:10
+hate that take because the problem with
+7:12
+that take is that you won't enjoy any
+7:15
+other language if you try to make other
+7:17
+languages a certain way you don't
+7:20
+understand why something is good or bad
+7:21
+until you use it the way you're supposed
+7:23
+to this is what keeps people stuck in
+7:26
+this like I only use say you know
+7:28
+whatever I only use rust because that's
+7:30
+all I'm using because they they only
+7:32
+view problems through this one lens and
+7:34
+then they just leave this entire thing
+7:35
+on the table it's not about what you
+7:37
+enjoy it's about learning paradigms to
+7:39
+solve things and then to use that to
+7:42
+kind of springboard yourself into into
+7:44
+understanding it do you need to love
+7:45
+another language I think you can learn
+7:47
+to love everything you can learn like
+7:49
+the thing is here's a good example of
+7:50
+that just I know this is one more take
+7:52
+when I started using rust one of my
+7:54
+biggest gripes with my big my two
+7:55
+biggest gripes with rust was one I
+7:58
+didn't like that if statement didn't
+7:59
+have parentheses around it and that it
+8:02
+was in a forced snake case as opposed to
+8:05
+camel case honestly those I I hated that
+8:08
+I found those just to be super annoying
+8:10
+cuz that's like how my brain thought I
+8:11
+thought it I just thought it looked
+8:13
+annoying right now after doing it for a
+8:17
+while I've unfortunately flipped my
+8:19
+stance now it's like okay if your if
+8:22
+statement has parenthesis around it it's
+8:24
+it's it's awful and if you're not using
+8:25
+snake case you're a loser now it's just
+8:28
+like now I'm SC rude cuz now I'm unhappy
+8:30
+in every language now I'm using go which
+8:32
+doesn't have parentheses but pretty much
+8:35
+wants you to have camel case and I hate
+8:37
+my life you know what I mean it's so
+8:39
+funny how your view of things can just
+8:40
+simply change by using it and trying to
+8:43
+use it for the purpose that it's
+8:45
+intended for instead of use the best
+8:47
+tool for the job because that's like
+8:48
+again someone can make a roller coaster
+8:50
+in Excel and I can give you a reason why
+8:52
+making a roller coaster in Excel is the
+8:54
+right tool for the job I prefer to try
+8:56
+to understand the domains in which a
+8:58
+language is best used and use the
+9:00
+language that I think is best for this
+9:02
+domain if possible and sometimes
+9:04
+unfortunately it's a people problem if
+9:06
+I'm working with a bunch of people that
+9:07
+only know typescript I'm probably using
+9:10
+typescript I'll I'll say hey we're using
+9:13
+JS doc losers but that's me you know you
+9:15
+know what I mean we're using JS doc
+9:17
+losers all right hey the name hey the
+9:19
+name is the prime gen
