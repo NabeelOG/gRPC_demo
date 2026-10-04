@@ -1,3 +1,26 @@
 module grpc
 
 go 1.25.0
+
+require (
+	github.com/golang/protobuf v1.5.4
+	google.golang.org/protobuf v1.36.12
+)
+
+require (
+	github.com/google/uuid v1.6.0
+	github.com/jinzhu/copier v0.4.0
+	google.golang.org/grpc v1.84.0
+)
+
+require (
+	golang.org/x/net v0.57.0 // indirect
+	golang.org/x/sys v0.47.0 // indirect
+	golang.org/x/text v0.40.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20260706201446-f0a921348800 // indirect
+)
+
+require (
+	github.com/stretchr/testify v1.12.1
+	go.yaml.in/yaml/v3 v3.0.5 // indirect
+)

@@ -1,0 +1,60 @@
+{
+ "id": "8533cc63-c920-4200-aa8d-5be114e0e5a0",
+ "brand": "Lenovo",
+ "name": "Thinkpad X1",
+ "cpu": {
+  "brand": "AMD",
+  "name": "ryzen 5",
+  "number_cores": 6,
+  "number_threads": 8
+ },
+ "ram": {
+  "value": "52",
+  "unit": "GIGABYTE"
+ },
+ "gpus": [
+  {
+   "brand": "Nvidia",
+   "name": "RTX 3070",
+   "min_ghz": 1.1590662143712096,
+   "max_ghz": 1.730734959016626,
+   "memory": {
+    "value": "6",
+    "unit": "GIGABYTE"
+   }
+  }
+ ],
+ "storages": [
+  {
+   "driver": "SSD",
+   "memory": {
+    "value": "392",
+    "unit": "GIGABYTE"
+   }
+  },
+  {
+   "driver": "HDD",
+   "memory": {
+    "value": "4",
+    "unit": "TERABYTE"
+   }
+  }
+ ],
+ "screen": {
+  "size_inch": 15.608169,
+  "resolution": {
+   "width": 3299,
+   "height": 1856
+  },
+  "panel": "OLED",
+  "multitouch": false
+ },
+ "keyboard": {
+  "layout": "AZERTY",
+  "backlit": true
+ },
+ "weight_kg": 2.1005676080593125,
+ "price_usd": 1919.9996431631623,
+ "updated_at": "2026-10-04T02:42:05.564349152Z",
+ "release_year": 2026
+}
